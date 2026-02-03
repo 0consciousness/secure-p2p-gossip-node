@@ -1,0 +1,9 @@
+[node]
+id = "node-1"
+listen_addr = "127.0.0.1:7000"
+metrics_addr = "127.0.0.1:9000"
+max_peers = 50
+
+[network]
+gossip_fanout = 3
+rate_limit_per_sec = 20
